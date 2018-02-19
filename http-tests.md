@@ -40,7 +40,7 @@ Laravel 为 HTTP 请求的生成和输出的检查都提供了非常流畅的 AP
 <a name="session-and-authentication"></a>
 ## Session / 认证
 
-Laravel 提供了几个可在测试时使用 Session 的辅助函数。首先，你需要传递一个数组给 `withSession` 方法来设置 Seesion 数据。这让你在应用程序的测试请求发送之前，先给数据加载 Session 变得简单：
+Laravel 提供了几个可在测试时使用 Session 的辅助函数。首先，你需要传递一个数组给 `withSession` 方法来设置 Session 数据。这让你在应用程序的测试请求发送之前，先给数据加载 Session 变得简单：
 
     <?php
 
